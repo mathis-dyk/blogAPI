@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "articles",
+  "info": {
+    "name": "Article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "disponible": {
+      "type": "boolean",
+      "default": true,
+      "private": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "categories": {
+      "collection": "categorie",
+      "via": "articles",
+      "dominant": true
+    },
+    "timeRead": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

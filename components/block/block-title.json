@@ -1,0 +1,14 @@
+{
+  "info": {
+    "name": "Block Title",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_block_block_titles"
+}
