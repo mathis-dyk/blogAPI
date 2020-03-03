@@ -35,6 +35,11 @@
     },
     "slug": {
       "type": "string"
+    },
+    "test": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.test"
     }
   }
 }
