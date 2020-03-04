@@ -25,16 +25,16 @@
     "content": {
       "type": "richtext"
     },
-    "categories": {
-      "collection": "categorie",
-      "via": "articles",
-      "dominant": true
-    },
     "timeRead": {
       "type": "integer"
     },
     "slug": {
       "type": "string"
+    },
+    "categories": {
+      "collection": "categorie",
+      "via": "articles",
+      "dominant": true
     }
   }
 }
