@@ -2,15 +2,12 @@
   "name": "blog",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Backend du blog de Mathis DYK",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
-  },
-  "env": {
-    "NODE_ENV": "development",
   },
   "devDependencies": {},
   "dependencies": {
@@ -28,7 +25,7 @@
     "strapi-utils": "^3.0.0-beta.18.8"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Mathis DYK"
   },
   "strapi": {
     "uuid": "9099a924-586a-49b4-a349-7d1908eb91da"
