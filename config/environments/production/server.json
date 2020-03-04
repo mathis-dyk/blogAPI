@@ -1,6 +1,6 @@
 {
   "host": "http://194.5.159.120/",
-  "port": "1337",
+  "port": "2000",
   "production": true,
   "proxy": {
     "enabled": false
