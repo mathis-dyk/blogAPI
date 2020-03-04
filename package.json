@@ -9,6 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "env": {
+    "NODE_ENV": "development",
+  },
   "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
