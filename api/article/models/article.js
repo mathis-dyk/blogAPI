@@ -15,7 +15,7 @@ module.exports = {
       }))
     } else if (options.method === 'update' && attrs.title) {
       attrs.slug = slugify(attrs.title, {
-        remove: /[*+~.()'"!:@]/g,
+        remove: /[*+~.,()'"!:@]/g,
         replacement: '-',    // replace spaces with replacement
         lower: true,         // result in lower case
       })
