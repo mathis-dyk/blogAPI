@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "components_block_image_presentations",
   "info": {
     "name": "ImagePresentation",
     "icon": "image"
@@ -13,8 +15,9 @@
     },
     "imageDescription": {
       "type": "string"
+    },
+    "name": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "components_block_image_presentations"
+  }
 }

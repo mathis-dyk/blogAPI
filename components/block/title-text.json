@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "components_block_title_texts",
   "info": {
     "name": "TitleText",
     "icon": "spell-check"
@@ -10,8 +12,9 @@
     },
     "text": {
       "type": "text"
+    },
+    "name": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "components_block_title_texts"
+  }
 }

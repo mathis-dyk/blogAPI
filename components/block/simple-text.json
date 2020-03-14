@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "components_block_simple_texts",
   "info": {
     "name": "simpleText",
     "icon": "align-justify"
@@ -7,8 +9,9 @@
   "attributes": {
     "content": {
       "type": "text"
+    },
+    "name": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "components_block_simple_texts"
+  }
 }
