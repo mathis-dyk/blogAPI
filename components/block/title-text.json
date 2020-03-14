@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "TitleText",
+    "icon": "spell-check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_block_title_texts"
+}

@@ -1,0 +1,14 @@
+{
+  "info": {
+    "name": "simpleText",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_block_simple_texts"
+}

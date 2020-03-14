@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "site_blocks",
+  "info": {
+    "name": "SiteBlock"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "TitleText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.title-text"
+    },
+    "ImagePresentation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.image-presentation"
+    },
+    "simpleText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.simple-text"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.image-presentation",
+        "block.title-text",
+        "block.simple-text"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thp-pages",
+      "handler": "thp-pages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thp-pages/count",
+      "handler": "thp-pages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thp-pages/:id",
+      "handler": "thp-pages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thp-pages",
+      "handler": "thp-pages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thp-pages/:id",
+      "handler": "thp-pages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thp-pages/:id",
+      "handler": "thp-pages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

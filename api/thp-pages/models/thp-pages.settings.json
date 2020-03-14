@@ -1,0 +1,21 @@
+{
+  "info": {
+    "name": "THPPages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.image-presentation",
+        "block.simple-text",
+        "block.title-text"
+      ]
+    }
+  },
+  "connection": "default",
+  "collectionName": "thp_pages"
+}

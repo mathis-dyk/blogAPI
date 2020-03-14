@@ -1,0 +1,20 @@
+{
+  "info": {
+    "name": "ImagePresentation",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "imageDescription": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_block_image_presentations"
+}
